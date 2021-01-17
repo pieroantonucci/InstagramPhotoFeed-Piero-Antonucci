@@ -1,0 +1,50 @@
+body{
+    background-color: black;
+    font-family: Helvetica;
+}
+.header{ 
+    background-color: white;
+    width:100%;
+    padding: 5px;
+    padding-left:26%;
+}
+.feed{
+    margin: auto;
+    width: 1000px;
+    height:2050px;
+    background-color:#eee;
+}
+.post1, .post2, .post3, .post4 {
+    margin: auto;
+    width: 480px;
+    max-height:100%;
+    background-color: white;
+    position: relative;
+    top:40px;
+    border-radius:2px;
+    margin-bottom: 40px;
+    overflow: hidden;
+    
+    }
+.title1, .title2, .title3, .title4 {
+    float:left;
+    padding-top:12px;
+    padding-bottom:12px;
+    padding-left:10px;
+}
+.fecha1, .fecha2, .fecha3, .fecha4 {
+    float:right;
+    padding-top:12px;
+    padding-right:10px;
+    color: gray;
+    font-size: 13px
+}
+.image1, .image2, .image3, .image4 {
+    width: 100%;
+}
+.parrafo1, .parrafo2, .parrafo3, .parrafo4  {
+    padding-top:12px; 
+    padding-bottom: 12px; 
+    padding-left:10px;
+    font-size: 13px
+}
